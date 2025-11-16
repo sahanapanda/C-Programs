@@ -1,0 +1,22 @@
+// You are using GCC
+#include <stdio.h>
+int main() {
+    int t, x, y, i;
+    
+    scanf("%d", &t);
+    
+    
+    for(i=1; i<=t; i++) {
+        scanf("%d %d", &x,&y);
+    if (x>y) 
+    printf("Sasha\n");
+    
+    else if (x==y)
+    printf("Tie\n");
+    
+    else 
+    printf("Brenda\n");
+    }
+    
+    return 0; 
+}
