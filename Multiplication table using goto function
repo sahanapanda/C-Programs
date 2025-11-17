@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+    int N, step, i = 10;
+    scanf("%d", &N);
+    scanf("%d", &step);
+
+loop:
+    if (i <= 0)
+        return 0;
+
+    printf("%d x %d = %d\n", N, i, N * i);
+    i -= step;
+    goto loop;
+}
