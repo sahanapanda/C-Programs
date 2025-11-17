@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+int main() {
+    int n, hours;
+    int overtimeEmployees = 0, totalOvertimeHours = 0;
+    int i = 0;
+
+
+    scanf("%d", &n);
+
+
+    while (i < n) {
+        scanf("%d", &hours);
+
+        if (hours > 8) {
+            overtimeEmployees++;
+            totalOvertimeHours += (hours - 8);
+        }
+
+        i++;
+    }
+
+    // Display results
+    printf("Overtime Employees: %d\n", overtimeEmployees);
+    printf("Total Overtime Hours: %d\n", totalOvertimeHours);
+
+    return 0;
+}
