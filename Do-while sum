@@ -1,6 +1,6 @@
 #sum of numbers 
 #include <stdio.h>
-int main() {
+int main() { 
     int n, sum =0;
     
     do {
