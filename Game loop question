@@ -1,9 +1,9 @@
-// You are using GCC
+// You are using GCC 
 #include <stdio.h>
 int main() {
     int t, x, y, i;
     
-    scanf("%d", &t);
+    scanf("%d", &t); 
     
     
     for(i=1; i<=t; i++) {
