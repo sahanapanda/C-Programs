@@ -10,6 +10,5 @@ int main() {
     
     printf("Sum of the series : %d", sum);
     
-    return 0;
-    
+    return 0;   
 }
