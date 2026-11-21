@@ -1,4 +1,4 @@
-#sum of numbers 
+#sum of numbers using do while
 #include <stdio.h>
 int main() { 
     int n, sum =0;
